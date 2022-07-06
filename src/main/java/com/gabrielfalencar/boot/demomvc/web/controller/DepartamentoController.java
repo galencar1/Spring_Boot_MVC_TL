@@ -5,12 +5,12 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
-@RequestMapping("/departamentos")
+@RequestMapping("/departamentos") // Camimho na HOME.html
 public class DepartamentoController {
 
-    @GetMapping("/cadastrar")
+    @GetMapping("/cadastrar") // caminho na HOME.html
     public String cadastrar(){
-        return "/departamento/cadastro";
+        return "/departamento/cadastro"; // caminho da pasta dentro do resources
     }
 
     @GetMapping("/listar")
