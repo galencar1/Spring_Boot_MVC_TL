@@ -2,7 +2,7 @@
 <h2>Curso de Spring Boot com MVC utilizando Thymeleaf</h2>
 
 <h4>Features do Projeto em Desenvolvimento</h4>
-* Iniciando Desenvolvimento do Projeto.
+* Iniciando Desenvolvimento do Projeto. <strong>-> FINALIZADO</strong>
 * Classes de Domínio
 * Camada de Persistência
 * Camada de Serviço
