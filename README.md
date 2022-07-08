@@ -4,7 +4,7 @@
 <h4>Features do Projeto em Desenvolvimento</h4>
 * Iniciando Desenvolvimento do Projeto. <strong>-> FINALIZADO</strong>
 * Classes de Domínio <strong>-> FINALIZADO</strong>
-* Camada de Persistência
+* Camada de Persistência <strong>-> FINALIZADO</strong>
 * Camada de Serviço
 * Thymeleaf para as Views
 * Departamento: Controller e View
