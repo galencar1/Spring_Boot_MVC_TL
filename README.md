@@ -6,7 +6,7 @@
 * Classes de Domínio <strong>-> FINALIZADO</strong><br>
 * Camada de Persistência <strong>-> FINALIZADO</strong><br>
 * Camada de Serviço <strong>-> FINALIZADO</strong><br>
-* Thymeleaf para as Views<br>
+* Thymeleaf para as Views<strong>-> FINALIZADO</strong><br>
 * Departamento: Controller e View<br>
 * Cargo: Controller e View<br>
 * Funcionário: Controller & View<br>
