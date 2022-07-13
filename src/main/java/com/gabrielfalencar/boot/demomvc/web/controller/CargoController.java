@@ -6,6 +6,7 @@ import com.gabrielfalencar.boot.demomvc.service.CargoService;
 import com.gabrielfalencar.boot.demomvc.service.DepartamentoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -30,7 +31,8 @@ public class CargoController {
     }
 
     @GetMapping("/listar")
-    public String listar(){
+    public String listar(ModelMap model){
+        model.addAttribute("cargos", service.buscarTodos());
         return "cargo/lista";
     }
 
