@@ -6,9 +6,9 @@
 * Classes de Domínio <strong>-> FINALIZADO</strong><br>
 * Camada de Persistência <strong>-> FINALIZADO</strong><br>
 * Camada de Serviço <strong>-> FINALIZADO</strong><br>
-* Thymeleaf para as Views<strong>-> FINALIZADO</strong><br>
-* Departamento: Controller e View<strong>-> FINALIZADO</strong><br><br>
-* Cargo: Controller e View<br>
+* Thymeleaf para as Views <strong>-> FINALIZADO</strong><br>
+* Departamento: Controller e View <strong>-> FINALIZADO</strong><br>
+* Cargo: Controller e View <strong>-> FINALIZADO</strong><br>
 * Funcionário: Controller & View<br>
 * Validação Back-end<br>
 * Mensagens via messages.properties<br>
