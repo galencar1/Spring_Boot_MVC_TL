@@ -7,7 +7,7 @@
 * Camada de Persistência <strong>-> FINALIZADO</strong><br>
 * Camada de Serviço <strong>-> FINALIZADO</strong><br>
 * Thymeleaf para as Views<strong>-> FINALIZADO</strong><br>
-* Departamento: Controller e View<br>
+* Departamento: Controller e View<strong>-> FINALIZADO</strong><br><br>
 * Cargo: Controller e View<br>
 * Funcionário: Controller & View<br>
 * Validação Back-end<br>
