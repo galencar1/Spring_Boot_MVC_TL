@@ -42,6 +42,7 @@ public abstract class AbstractDao <T, PK extends Serializable>{
                 .getResultList();
     }
 
+
     /***********************************************************************************************************/
 
     protected List<T> createQuery(String jpql, Object... params) {
