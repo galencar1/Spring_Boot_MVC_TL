@@ -11,6 +11,6 @@
 * Cargo: Controller e View <strong>-> FINALIZADO</strong><br>
 * Funcionário: Controller & View <strong>-> FINALIZADO</strong><br>
 * Validação Back-end <strong>-> FINALIZADO</strong><br>
-* Mensagens via messages.properties<br>
-* Página de Erro<br>
-* Final<br>
+* Mensagens via messages.properties <strong>-> FINALIZADO</strong><br>
+* Página de Erro <strong>-> FINALIZADO</strong><br>
+* Final <strong>-> FINALIZADO</strong><br> 
