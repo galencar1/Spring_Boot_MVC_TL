@@ -9,8 +9,8 @@
 * Thymeleaf para as Views <strong>-> FINALIZADO</strong><br>
 * Departamento: Controller e View <strong>-> FINALIZADO</strong><br>
 * Cargo: Controller e View <strong>-> FINALIZADO</strong><br>
-* Funcionário: Controller & View<br>
-* Validação Back-end<br>
+* Funcionário: Controller & View <strong>-> FINALIZADO</strong><br>
+* Validação Back-end <strong>-> FINALIZADO</strong><br>
 * Mensagens via messages.properties<br>
 * Página de Erro<br>
 * Final<br>
