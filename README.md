@@ -2,15 +2,15 @@
 <h2>Curso de Spring Boot com MVC utilizando Thymeleaf</h2>
 
 <h4>Features do Projeto em Desenvolvimento</h4>
-* Iniciando Desenvolvimento do Projeto.
-* Classes de Domínio
-* Camada de Persistência
-* Camada de Serviço
-* Thymeleaf para as Views
-* Departamento: Controller e View
-* Cargo: Controller e View
-* Funcionário: Controller & View
-* Validação Back-end
-* Mensagens via messages.properties
-* Página de Erro
-* Final
+* Iniciando Desenvolvimento do Projeto. <strong>-> FINALIZADO</strong><br>
+* Classes de Domínio <strong>-> FINALIZADO</strong><br>
+* Camada de Persistência <strong>-> FINALIZADO</strong><br>
+* Camada de Serviço <strong>-> FINALIZADO</strong><br>
+* Thymeleaf para as Views <strong>-> FINALIZADO</strong><br>
+* Departamento: Controller e View <strong>-> FINALIZADO</strong><br>
+* Cargo: Controller e View <strong>-> FINALIZADO</strong><br>
+* Funcionário: Controller & View <strong>-> FINALIZADO</strong><br>
+* Validação Back-end <strong>-> FINALIZADO</strong><br>
+* Mensagens via messages.properties <strong>-> FINALIZADO</strong><br>
+* Página de Erro <strong>-> FINALIZADO</strong><br>
+* Final <strong>-> FINALIZADO</strong><br> 
