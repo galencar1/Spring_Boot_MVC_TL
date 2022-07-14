@@ -1,6 +1,8 @@
 package com.gabrielfalencar.boot.demomvc.domain;
 
 import javax.persistence.*;
+import javax.validation.constraints.NotBlank;
+import javax.validation.constraints.Size;
 import java.util.List;
 
 //Primeiro passo - Estender a Classe Abstract Entity e definir o tipo genérico como LONG.
@@ -9,6 +11,9 @@ import java.util.List;
 @Table(name = "DEPARTAMENTOS") // Será criada a tabela com nome de DEPARTAMENTOS no banco de dados
 public class Departamento extends AbstractEntity <Long>{
     //Gerar atributo nome
+
+    @NotBlank(message = "Informe um nome.")
+    @Size(min = 3, max = 60, message = "O Nome do departamento deve ter entre {min} e {max} caracteres")
     @Column(name = "nome", nullable = false, unique = true, length = 60) // Mapeia o atributo nome como uma coluna da tabela DEPARTAMENTOS.
     private String nome;
 

@@ -5,13 +5,17 @@ import com.gabrielfalencar.boot.demomvc.domain.Funcionario;
 import com.gabrielfalencar.boot.demomvc.domain.UF;
 import com.gabrielfalencar.boot.demomvc.service.CargoService;
 import com.gabrielfalencar.boot.demomvc.service.FuncionarioService;
+import com.gabrielfalencar.boot.demomvc.web.controller.validator.FuncionarioValidator;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.format.annotation.DateTimeFormat;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
+import org.springframework.validation.BindingResult;
+import org.springframework.web.bind.WebDataBinder;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
+import javax.validation.Valid;
 import java.time.LocalDate;
 import java.util.List;
 
@@ -25,6 +29,11 @@ public class FuncionarioController {
     @Autowired
     private CargoService cargoService;
 
+    @InitBinder
+    public void initBinder(WebDataBinder binder){
+        binder.addValidators(new FuncionarioValidator());
+    }
+
     @GetMapping("/cadastrar")
     public String cadastrar(Funcionario funcionario){
         return ("funcionario/cadastro");
@@ -37,7 +46,11 @@ public class FuncionarioController {
     }
 
     @PostMapping("/salvar")
-    public String salvar(Funcionario funcionario, RedirectAttributes attr) {
+    public String salvar(@Valid Funcionario funcionario, BindingResult result, RedirectAttributes attr) {
+        if (result.hasErrors()){
+            return "/funcionario/cadastro";
+        }
+
         service.salvar(funcionario);
         attr.addFlashAttribute("success", "Funcionário inserido com sucesso!");
         return "redirect:/funcionarios/cadastrar";
@@ -50,7 +63,11 @@ public class FuncionarioController {
     }
 
     @PostMapping("/editar")
-    public String editar(Funcionario funcionario, RedirectAttributes attr){
+    public String editar(@Valid Funcionario funcionario, BindingResult result,RedirectAttributes attr){
+        if (result.hasErrors()){
+            return "/funcionario/cadastro";
+        }
+
         service.editar(funcionario);
         attr.addFlashAttribute("success", "Funcionário editado com sucesso");
         return "redirect:/funcionarios/cadastrar";
